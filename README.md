@@ -9,6 +9,8 @@
 
 构造一个请求，是以下各方法的基础方法; 返回Response对象，命为r;r.status_code若为200，则返回成功；r.text是url对应的页面内容；r.encoding是从http header中猜测出来的响应内容的编码方式；r.apparent_encoding是从内容中分析出来的响应内容的编码方式（备选编码方式）;r.content是http响应内容的形式
 
+http是一个基于“请求与响应”模式的、无状态的应用层协议。（无状态指的是前一次请求和后一次请求没有关系）
+
 ***requests.get()***
 
 获取html网页的主要方法，对应于http的get
