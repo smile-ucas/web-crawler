@@ -1,7 +1,7 @@
 # Python爬虫
 ## [Requests库](http://www.python-requests.org)
 
-** Requests库的7个主要方法 
+**Requests库的7个主要方法** 
 
 requests.request() 构造一个请求，是以下各方法的基础方法
 
