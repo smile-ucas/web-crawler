@@ -1,5 +1,5 @@
 # Python爬虫
-## [Requests库](http://www.python-requests.org)
+## [Requests库](http://www.python-requests.org)  爬取网页，小规模，数据量小，爬取速度不敏感
 
 **以管理员身份打开命令提示符，运行pip install requests,即可安装Requests**
 
@@ -73,5 +73,20 @@ requests.delete(url,**kwargs)
 
 第2个参数可选13种，就是requests.request()中第三个参数中的13种
 
+## Scrapy库 中规模，数据规模较大，爬取速度敏感，爬取网站，爬取系列网站
+
+## 大规模，搜索引擎，爬取速度关键，爬取全网，没有第三方库，要定制开发
+
+## 对爬虫的限制
+
+**Robots协议(发布公告，哪些不可以爬)，如果没有这个协议，表示这个网站允许所有爬虫无限制爬
+
+Robots协议的基本语法：User-Agent：*（这个代表所有爬虫）      Disallow:/  (/代表根目录)
+ 
+http://www.baidu.com/robots.txt
+
+**来源审查（判断User-Agent进行限制）维护网站的技术人员来设定的
+
+检查http协议头的User-Agent域，只响应浏览器或友好爬虫的访问
 
 
