@@ -73,7 +73,7 @@ requests.delete(url,**kwargs)
 
 第2个参数可选13种，就是requests.request()中第三个参数中的13种
 
-## Scrapy库 中规模，数据规模较大，爬取速度敏感，爬取网站，爬取系列网站
+## Scrapy库 中规模，数据规模较大，爬取速度敏感，爬取网站，爬取系列网站;
 
 
 
