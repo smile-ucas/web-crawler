@@ -7,8 +7,8 @@ Created on Sun Jun  4 21:57:15 2017
 
 import requests
 import os
-root ="E:/example.jpg"
-url="http://exp.cdn-hotels.com/hotels/4000000/3900000/3893200/3893187/3893187_25_y.jpg"
+root ="E://"
+url="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1496638785417&di=ece9447a834357c99cbc598219db60ea&imgtype=0&src=http%3A%2F%2Fwww.taisha.org%2Fuploadfile%2F2017%2F0518%2F20170518105125776.jpg"
 path=root+url.split('/')[-1]
 try:
     if not os.path.exist(root):
