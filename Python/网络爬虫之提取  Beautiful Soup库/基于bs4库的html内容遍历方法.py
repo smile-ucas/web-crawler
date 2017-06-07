@@ -20,7 +20,7 @@ soup = BeautifulSoup(demo,"html.parser")
 #遍历儿子节点
 #for child in soup.body.children:
 #    print(child)
-
+#
 ##遍历子孙节点     
 #for child in soup.body.children:
 #    print(child)
