@@ -17,3 +17,9 @@
 ## 优化后结果
 
 <img src="shizhan1_youhua.png" width="400"/>
+
+# 实战——taobao 
+
+## 结果
+
+<img src="shizhan2_taobao.png" width="400"/>
